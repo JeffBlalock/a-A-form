@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>a/A Survey</title>
+        <p>Choose your favorite programming language</p>
+        <label for="start">Start date:</label>
+
+        <input type="date" id="start"
+        name="trip-start"
+               value="2023-03-23"
+               min="2023-01-01" max="2024-01-01">
+
+    </head>
+    <body>
+        <form action="a/A Survey Page" method="post">
+            <ul>
+
+                <li>
+                    <label for="firstName">FirstName:</label>
+                    <input type="text" id="firstName" name="first_Name" />
+                </li>
+
+
+                <li>
+                    <label for="lastName">LastName</label>
+                    <input type="text" id="lastName" name="last_Name" />
+                </li>
+
+
+                <li>
+                    <label for="emailaddress">Emailaddress:</label>
+                    <input type="text" id="emailaddress">
+                </li>
+
+
+
+                <li>
+                    <label for="com">Comments:</label>
+                    <textarea id="com" name="user_comments"></textarea>
+                </li>
+
+            </ul>
+
+            <label for="Status">Status:</label>
+
+            <select id="status">
+                <option value="">--Please choose an option--</option>
+                <option value="student">Student</option>
+                <option value="instructor">Instructor</option>
+                <option value="guest">Guest</option>
+            </select>
+
+             <fieldset>
+                <legend>Select a Programming Language:</legend>
+
+                <div>
+                  <input type="radio" id="html" name="language" value="html">
+                  <label for="html">HTML</label>
+                </div>
+
+                <div>
+                  <input type="radio" id="css" name="language" value="css">
+                  <label for="css">CSS</label>
+                </div>
+
+                <div>
+                  <input type="radio" id="javascript" name="language" value="javascript">
+                  <label for="javascript">Javascript</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Sign up for newsletter</legend>
+
+                <input type="radio" id="Sign up for newsletter" name="Signup" value="S">
+                <label for="sign">Sign up for newsletter</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Agree to terms and conditions</legend>
+
+                <input type="radio" id="Agree to terms and conditions" name="Agree" value="A">
+                <label for="agree">Agree to terms and conditions</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Add User</legend>
+
+                <input type="radio" id="Add User" name="Add" value="A">
+                <label for="add">Add User</label>
+            </fieldset>
+
+            <li class="button">
+                <button type="submit">Submit</button>
+            </li>
+
+        </form>
+
+        <ul>
+            </li>
+
+            </li>
+        </ul>
+    </body>
+</html>
